@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.login {
+  text-align: center;
+  margin: 0 auto;
+  padding: 2rem;
+  margin-top: 4rem;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px,
+    rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+  width: 350px;
+  height: auto;
+}
+.login-title-wrapper {
+  margin-bottom: 1rem;
+}
+.login-title {
+  text-align: center;
+}
+.btn {
+  width: 250px;
+  cursor: pointer;
+  border-radius: 5px;
+  color: white;
+  background-color: rebeccapurple;
+  padding: 10px;
+  border: none;
+  outline: none;
+}
+.input-field {
+  padding: 5px;
+  width: 250px;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  outline: none;
+}
+.fa-user-plus {
+  color: black;
+}
+.input-container {
+  position: relative;
+  display: inline;
+}
+.fa-envelope,
+.fa-key,
+.fa-phone {
+  position: absolute;
+  right: 0;
+  padding: 0.4rem;
+  font-size: 0.2rem;
+  color: #ccc;
+}
